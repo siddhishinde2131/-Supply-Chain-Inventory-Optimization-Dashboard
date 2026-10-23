@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.streamlit/secrets.toml
+
+# Generated sample data (recreated deterministically on first run)
+data/sample/*.csv
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# User accounts (password hashes) - never commit
+data/users.json
+data/.users_*.tmp
